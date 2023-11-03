@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ecommerce-pr</title>
+    <style>
+        .pr_header{
+            color:rgb(255, 255, 255);
+            background-color: rgb(27, 116, 241);
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding:5px 2px;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .pr_itembar{
+            display:flex;
+            flex-direction: row;
+            justify-content:center;
+            align-items: center;
+            background-color: rgb(226, 226, 226);
+            height:450px;
+        }
+        
+        .pr_item{
+            width:16%;
+            height:350px;
+            margin-left: 10px;
+            margin-right: 10px;
+            padding:10px;
+            padding-top: 20px;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            flex-direction: column;
+            align-items:center ;
+        }
+
+        .pr_item-img{
+            width:80%;
+        }
+
+        .pr_item-name{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 22px;
+            width:170px;
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+        .pr_item-button{
+            background-color: rgb(18, 101, 188);
+            color: rgb(255, 255, 255);
+            border-style:none ;
+            border-radius:0% ;
+            height:30px;
+            font-size: 15px;
+            border-radius: 20px;
+        }
+
+        .pr_footer{
+            background-color: rgb(156, 124, 7);
+        }
+
+        .pr_footer-title{
+            font-size: 65px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(255, 255, 255);
+            font-weight: 100;
+        }
+
+        .pr_footer-body{
+            display: flex;
+            flex-direction: row;
+        }
+        .pr_footer-icon{
+            height:110px;
+            padding: 20px;
+        }
+
+        .pr_footer-text{
+            display: flex; 
+            flex-direction: column;
+            line-height: 0%;
+            margin-top: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-left: 100px;
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+    <div class="pr_header">
+        <span>Items</span>
+    </div>
+    <div class="pr_itembar">
+        <div class="pr_item">
+            <img class="pr_item-img" src="https://www.manua.ls/thumbs/products/l/1452509-samsung-galaxy-a03s.jpg" style="height:250px; object-fit: contain;">
+            <span class="pr_item-name">Samsung Galaxy A03s</span>
+            <button class="pr_item-button" >Add to Cart</button>
+        </div>
+        <div class="pr_item">
+            <img class="pr_item-img" src="https://consumer.huawei.com/content/dam/huawei-cbg-site/common/mkt/pdp/admin-image/phones/nova-y70/list/list-blue.png " style="height:250px;   object-fit: contain;">
+            <span class="pr_item-name">Huawei Nova Y70</span>
+            <button class="pr_item-button">Add to Cart</button>
+        </div>
+        <div class="pr_item">
+            <img class="pr_item-img" src="https://celltronics.lk/wp-content/uploads/2021/02/iPhone-11-64GB-01.jpg" style="height:250px; object-fit: contain;">
+            <span class="pr_item-name">Apple Ipone 11 64GB</span>
+            <button class="pr_item-button">Add to Cart</button>
+        </div>
+        <div class="pr_item">
+            <img class="pr_item-img" src="https://appleasia.lk/wp-content/uploads/2023/03/iphone-13-pro-max-alpine-green-Price-in-Srilanka-Apple-Asia-5.jpg" style="height:250px; object-fit: contain;">
+            <span class="pr_item-name">Apple iPhone 13 Pro-128GB</span>
+            <button class="pr_item-button">Add to Cart</button>
+        </div>
+        <div class="pr_item">
+  
+  
+            <img class="pr_item-img" src="https://celltronics.lk/wp-content/uploads/2022/06/iPhone-SE-600x600.jpg" style="height:250px; object-fit: contain;">
+            <span class="pr_item-name">Apple iPhone SE 3 (2022) 64GB</span>
+            <button class="pr_item-button">Add to Cart</button>
+        </div>
+    </div>
+    <div class="pr_footer">
+        <div class="pr_footer-title">Cart</div>
+        <div class="pr_footer-body">
+           <img class="pr_footer-icon" src="https://www.svgrepo.com/show/511129/shopping-cart-01.svg">
+           <div class="pr_footer-text">
+           <p style="font-size: 20px;">Items</p>
+           <div style="margin:10px 0px; height:25px">
+                1.Samsung Galaxy A03s
+               <img src="	https://cdn-icons-png.flaticon.com/512/1828/1828843.png" style="height:20px; object-fit: contain; padding-left: 20px; ">
+            </div>
+            <div style="margin:10px 0px; height:25px">
+                2.Apple iPhone 13 Pro-128GB
+                <img src="	https://cdn-icons-png.flaticon.com/512/1828/1828843.png" style="height:20px; object-fit: contain; padding-left: 20px;">
+            </div>
+        </div>
+            
+        </div>
+
+    </div>
+    
+
+
+
+</body>
+
+</html>
